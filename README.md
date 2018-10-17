@@ -14,7 +14,18 @@ git config -l
 git config --global user.email irene.de.t@gmail.com
 git config --global user.name "Irene de Teresa"
 ```
+- Add, commit:
 
+```bash
+git add filename
+git commit -m "the message"
+``` 
+
+- To push to a remote repository in GitHub:
+
+```bash
+?
+```
 
 ## Quick markdown overview
 
