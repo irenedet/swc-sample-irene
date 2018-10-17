@@ -129,6 +129,13 @@ nano conflicting_file_name
 ```
 then delete weird symbols and choose...
 
+```bash
+git add ...
+git commit ...
+git push
+```
+
+
 ## Quick markdown overview
 
 - For bullets, use a small '-'
