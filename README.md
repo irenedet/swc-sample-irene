@@ -39,6 +39,27 @@ git commit
 git log #or
 git log --oneline
 ```
+
+- diff is a tool that shows changes between versions and repository copies:
+
+
+```
+git diff
+```
+
+in stage:
+
+```
+git diff --staged
+```
+
+or between two versions in the local repo:
+
+```
+git diff b856f26 b1f794b
+```
+
+
 - To push to a remote repository in GitHub:
 
 ```bash
