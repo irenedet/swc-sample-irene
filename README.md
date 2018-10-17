@@ -105,6 +105,11 @@ git checkout -- README.md
 ```bash
 git push
 ```
+- To pull changes from remote repo
+
+```bash
+git pull
+```
 
 ## Quick markdown overview
 
