@@ -134,8 +134,14 @@ git add ...
 git commit ...
 git push
 ```
+- To protect the repository from potential changes by collaborators: in github -> settings -> branches ...
 
+## Branching:
 
+- new branch
+```
+git checkout -b whateverbranchname
+```
 ## Quick markdown overview
 
 - For bullets, use a small '-'
