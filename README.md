@@ -13,10 +13,11 @@ Sample project for the git lesson of embl software carpentry course
 git config -l
 ```
 
-- To set user email
+- To set user email and preferences
 ```bash
 git config --global user.email irene.de.t@gmail.com
 git config --global user.name "Irene de Teresa"
+git config --global core.editor nano
 ```
 - Add, commit:
 
@@ -110,6 +111,23 @@ git push
 ```bash
 git pull
 ```
+
+## For collaborations
+
+- If the other person has already commited changes to the 
+remote repo, you have to first **pull** those changes and then **push**:
+
+```bash
+git pull
+# Add a message to explain why you will pull
+git push
+```
+- When both change the same piece of the repository, the merging can't be done automatically. In the corresponding file one sees the
+<<<<<<< >>>>>>> symbols and tokens related to the different versions. So one has to edit manually and decide what to chose:
+```bash
+nano conflicting_file_name
+```
+then delete weird symbols and choose...
 
 ## Quick markdown overview
 
