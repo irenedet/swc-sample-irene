@@ -59,6 +59,11 @@ or between two versions in the local repo:
 git diff b856f26 b1f794b
 ```
 
+- To undo commits!:
+
+```bash
+git checkout -- README.md
+```
 
 - To push to a remote repository in GitHub:
 
