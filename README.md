@@ -59,6 +59,18 @@ or between two versions in the local repo:
 git diff b856f26 b1f794b
 ```
 
+to check changes since some version to the current one:
+
+```bash
+git diff 9bdd448
+```
+
+to color the changes:
+
+```bash
+git diff --color-words 9bdd448
+```
+
 - To undo commits!:
 
 ```bash
