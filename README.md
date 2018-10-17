@@ -2,6 +2,20 @@
 Sample project for the git lesson of embl software carpentry course
 - The official git webpage and documentation is in this [link](https://git-scm.com/)
 
+## Starting a Git Repository
+
+- To check the repo settings:
+```bash
+git config -l
+```
+
+- To set user email
+```bash
+git config --global user.email irene.de.t@gmail.com
+git config --global user.name "Irene de Teresa"
+```
+
+
 ## Quick markdown overview
 
 - For bullets, use a small '-'
