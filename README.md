@@ -77,10 +77,33 @@ git diff --color-words 9bdd448
 git checkout -- README.md
 ```
 
+- To go back in time:
+
+	First, you have to be in a **clean** state (commit all changes)
+
+	And then go to the desired working copy, e.g. b856f26:
+
+	```bash
+	git checkout b856f26
+	```
+
+	Now the HEAD will be in that point in time
+
+	- Now one can do a branch
+
+	```bash
+	git checkout -b one_sample_branch
+	``` 
+
+
+
+## Relation local/remote repos
+
+
 - To push to a remote repository in GitHub:
 
 ```bash
-?
+git push
 ```
 
 ## Quick markdown overview
