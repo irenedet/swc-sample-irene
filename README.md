@@ -111,6 +111,7 @@ git push
 - For bullets, use a small '-'
 - Create **bold text** use '**'
 - Create *emphasized text* use '*'
+- Code formatting with backticks
 - For [links](http://www.something.com) one uses '[link name](url)'
 
 ## Good practices in **git**
