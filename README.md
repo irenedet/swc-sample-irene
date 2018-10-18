@@ -142,6 +142,28 @@ git push
 ```
 git checkout -b whateverbranchname
 ```
+
+## Local repositories and GitHub
+
+- Create a repo locally:
+```
+mkdir repo_directory
+cd repo_directory
+git init
+```
+
+- Then create the corresponding repo in GitHub 
+(e.g. at  https://github.com/username/new-repo) and
+then link them together:
+
+```
+git remote add origin https://github.com/username/new-repo
+git pull https://github.com/username/new-repo
+git push https://github.com/username/new-repo
+
+```
+
+
 ## Quick markdown overview
 
 - For bullets, use a small '-'
